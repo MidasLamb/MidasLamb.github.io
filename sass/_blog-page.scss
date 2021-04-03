@@ -1,0 +1,23 @@
+.blog-content {
+    color: rgb(100, 100, 100);
+
+    > p:not(:last-child) {
+        margin-bottom: 2em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-weight: 400;
+    }
+}
